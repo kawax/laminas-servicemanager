@@ -9,7 +9,7 @@
 namespace LaminasTest\ServiceManager\AbstractFactory;
 
 use ArrayAccess;
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Laminas\ServiceManager\AbstractFactory\ReflectionBasedAbstractFactory;
 use Laminas\ServiceManager\Exception\ServiceNotFoundException;
 use PHPUnit\Framework\TestCase;

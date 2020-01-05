@@ -8,7 +8,7 @@
 
 namespace Laminas\ServiceManager\Exception;
 
-use Interop\Container\Exception\ContainerException;
+use Psr\Container\ContainerExceptionInterface;
 use RuntimeException as SplRuntimeException;
 
 /**
@@ -16,7 +16,7 @@ use RuntimeException as SplRuntimeException;
  * the service (factory that has an error...)
  */
 class ServiceNotCreatedException extends SplRuntimeException implements
-    ContainerException,
+    ContainerExceptionInterface,
     ExceptionInterface
 {
 }

@@ -8,16 +8,13 @@
 
 namespace Laminas\ServiceManager;
 
-use Interop\Container\ContainerInterface as InteropContainerInterface;
 use Psr\Container\ContainerExceptionInterface;
-use Psr\Container\ContainerInterface as PsrContainerInterface;
+use Psr\Container\ContainerInterface;
 
 /**
  * Interface for service locator
  */
-interface ServiceLocatorInterface extends
-    PsrContainerInterface,
-    InteropContainerInterface
+interface ServiceLocatorInterface extends ContainerInterface
 {
     /**
      * Build a service by its name, using optional options (such services are NEVER cached).

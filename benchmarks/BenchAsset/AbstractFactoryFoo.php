@@ -8,7 +8,7 @@
 
 namespace LaminasBench\ServiceManager\BenchAsset;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Laminas\ServiceManager\Factory\AbstractFactoryInterface;
 
 class AbstractFactoryFoo implements AbstractFactoryInterface

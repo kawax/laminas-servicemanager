@@ -8,7 +8,7 @@
 
 namespace LaminasTest\ServiceManager\Factory;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Laminas\ServiceManager\Factory\InvokableFactory;
 use LaminasTest\ServiceManager\TestAsset\InvokableObject;
 use PHPUnit\Framework\TestCase;

@@ -8,7 +8,7 @@
 
 namespace Laminas\ServiceManager\AbstractFactory;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Laminas\ServiceManager\Exception\ServiceNotFoundException;
 use Laminas\ServiceManager\Factory\AbstractFactoryInterface;
 use ReflectionClass;

@@ -2,7 +2,7 @@
 
 namespace LaminasTest\ServiceManager\TestAsset;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Laminas\ServiceManager\Factory\FactoryInterface;
 use LaminasTest\ServiceManager\TestAsset\InvokableObject;
 
